@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato" sans-serif;
+  background-color: blue;
+}
+
+.SignUpForm {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  margin-top: 70px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.SignUpForm h1 {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.form from {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid green;
+  border-radius: 6px;
+  outline: none;
+}
+
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+}
+
+input[type="button"]:hover {
+  transform: scale(1.08);
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+
+a {
+  color: white;
+}
